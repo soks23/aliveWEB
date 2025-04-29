@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Game Title</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: sans-serif;
+      color: white;
+      background: url('IMG_3193.PNG') no-repeat center center fixed;
+      background-size: cover;
+    }
+    .overlay {
+      background-color: rgba(0, 0, 0, 0.6);
+      min-height: 100vh;
+      padding: 2rem;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    .btn {
+      background-color: #ff4d4d;
+      border: none;
+      padding: 1rem 2rem;
+      color: white;
+      font-size: 1.2rem;
+      cursor: pointer;
+      border-radius: 8px;
+      margin: 1rem auto;
+      display: block;
+      text-decoration: none;
+      width: max-content;
+    }
+    .section {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 1rem;
+      background-color: rgba(255, 255, 255, 0.1);
+      border-radius: 12px;
+    }
+    .screenshots img {
+      width: 100%;
+      margin-bottom: 1rem;
+      border-radius: 8px;
+    }
+    footer {
+      text-align: center;
+      margin-top: 4rem;
+    }
+    details {
+      background: rgba(0,0,0,0.5);
+      margin: 1rem 0;
+      padding: 1rem;
+      border-radius: 8px;
+    }
+    details summary {
+      cursor: pointer;
+      font-weight: bold;
+      font-size: 1.1rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay">
+    <header>
+      <a href="https://store.steampowered.com/" class="btn">
+        <img src="logo.png" alt="Game Logo" style="height: 50px; vertical-align: middle;"> Wishlist on Steam
+      </a>
+    </header>
+
+    <div class="section">
+      <h1>About the Game</h1>
+      <p>Short description of the game goes here. What’s the game about? What’s the mood and genre?</p>
+    </div>
+
+    <div class="section">
+      <a href="https://store.steampowered.com/" class="btn">Add to Wishlist</a>
+      <a href="https://ko-fi.com/yourname" class="btn">Support the project</a>
+    </div>
+
+    <div class="section screenshots">
+      <h2>Screenshots</h2>
+      <img src="screenshot1.jpg" alt="Screenshot 1">
+      <img src="screenshot2.jpg" alt="Screenshot 2">
+    </div>
+
+    <div class="section">
+      <h2>Follow us</h2>
+      <p>
+        <a href="https://twitter.com" class="btn">Twitter</a>
+        <a href="https://discord.com" class="btn">Discord</a>
+      </p>
+    </div>
+
+    <div class="section">
+      <details>
+        <summary>World and Lore</summary>
+        <p>Description of the world, setting, atmosphere...</p>
+      </details>
+      <details>
+        <summary>Characters</summary>
+        <p>Main characters info...</p>
+      </details>
+      <details>
+        <summary>Behind the Scenes</summary>
+        <p>Production details, team, process, etc.</p>
+      </details>
+    </div>
+
+    <footer>
+      <p>&copy; 2025 Your Studio Name</p>
+    </footer>
+  </div>
+</body>
+</html>
